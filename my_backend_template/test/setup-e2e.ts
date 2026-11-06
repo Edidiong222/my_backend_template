@@ -1,0 +1,10 @@
+process.env.NODE_ENV = 'test';
+process.env.DB_HOST ||= 'localhost';
+process.env.DB_PORT ||= '5432';
+process.env.DB_USER ||= 'postgres';
+process.env.DB_PASSWORD ||= 'postgres';
+process.env.DB_NAME ||= 'my_backend_test';
+process.env.JWT_ACCESS_SECRET ||= 'e2e-access-secret-at-least-32-characters-long';
+process.env.JWT_REFRESH_SECRET ||= 'e2e-refresh-secret-at-least-32-characters-long';
+process.env.APP_URL ||= 'http://localhost:4000';
+process.env.CORS_ORIGINS ||= 'http://localhost:3000';
